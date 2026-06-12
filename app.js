@@ -13,5 +13,5 @@ function showPage(id) {
 }
 
 function troll() {
-    document.getElementById('GorillaMittelFinger2').classList.toggle('hidden');
+    document.getElementById('GorillaMittelFinger2').classList.remove('hidden');
 }
