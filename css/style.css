@@ -3,19 +3,15 @@
     display: flex;
 
     /* Deine Wunsch-Größe (erzwingen) */
-    width: 14rem;
-    height: 10rem;
+    width: 8rem;
+    height: 3rem;
 
-    /* Das ersetzt 'btn btn-outline-secondary' und den Rahmen */
-    border: 1px solid #6c757d;
     background-color: transparent;
 
     /* Text-Farbe und Unterstrich entfernen */
     color: white;
     text-decoration: none;
 
-    /* Schatten aus deinem ursprünglichen Style */
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
 
     /* Damit es beim Hovern weich einfadet */
     transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
@@ -28,34 +24,22 @@
     /* Optional: abgerundete Ecken */
 }
 
-/* Die kleine Variante für normale Buttons */
-.custom-button-small {
-    width: 8rem;
-    height: 3rem;
-}
 
 /* Der Hover-Effekt, damit sich beim Drüberfahren auch was tut */
 .custom-button-style:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-    border-color: #ffffff;
-    color: #ffffff;
-    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.7);
-    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
+
 }
 
-.btn-shadow-red {
-    /* Überschreibt den weißen Schatten mit einem roten RGBA-Schatten */
-    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.6) !important;
-}
+
 
 .btn-hover-red:hover {
-    background-color: rgba(255, 0, 0, 0.2) !important;
-    border-color: #ffffff;
-    color: #ffffff;
-    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.6) !important;
+
 }
 
-.white-hover:hover {
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
-    border-radius: 1rem;
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
